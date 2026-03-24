@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MilliBox OTA 测试解决方案</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* ===== Banner ===== */
+.hero {
+    background: url('https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc') center/cover no-repeat;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* ===== Section ===== */
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ===== Image ===== */
+.image-box {
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ===== Highlight ===== */
+.highlight {
+    color: #1e88e5;
+    font-weight: bold;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== Banner ===== -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>MilliBox OTA 天线测试系统</h1>
+        <p>毫米波 · 太赫兹 · 紧凑高性能测试平台</p>
+    </div>
+</div>
+
+<!-- ===== 产品介绍 ===== -->
+<div class="section">
+    <h2>产品概述</h2>
+    <div class="card">
+        <p>
+        MilliBox 是一套集 <span class="highlight">电波暗室 + 3D 天线定位器 + OTA 软件</span> 于一体的测试系统，
+        支持 <span class="highlight">18 GHz – 330 GHz</span>，适用于 5G / 6G / 汽车雷达 / 太赫兹应用。
+        </p>
+    </div>
+</div>
+
+<!-- ===== 产品图片 ===== -->
+<div class="section">
+    <h2>产品展示</h2>
+    <div class="grid">
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1581091215367-59ab6b7a4b94">
+            <p>毫米波电波暗室（示意图）</p>
+        </div>
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22731b3d2f">
+            <p>3D 天线定位器</p>
+        </div>
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1555617117-08fda1fef2bb">
+            <p>OTA 测试软件界面</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- ===== 优势 ===== -->
+<div class="section">
+    <h2>核心优势</h2>
+    <div class="grid">
+        <div class="card">📦 桌面级紧凑设计</div>
+        <div class="card">💰 成本远低于传统暗室</div>
+        <div class="card">🔧 模块化扩展</div>
+        <div class="card">⚙️ Python开放软件</div>
+    </div>
+</div>
+
+<!-- ===== 参数 ===== -->
+<div class="section">
+    <h2>核心性能</h2>
+    <div class="grid">
+        <div class="card">📡 远场距离：77cm – 200cm</div>
+        <div class="card">🎯 精度：< 0.1°</div>
+        <div class="card">📶 频率：18GHz – 330GHz</div>
+        <div class="card">📊 支持3D方向图</div>
+    </div>
+</div>
+
+<!-- ===== 应用 ===== -->
+<div class="section">
+    <h2>应用场景</h2>
+    <div class="grid">
+        <div class="card">🚗 汽车雷达</div>
+        <div class="card">📡 5G / 6G</div>
+        <div class="card">🛰 卫星通信</div>
+        <div class="card">✈️ 航空航天</div>
+    </div>
+</div>
+
+<!-- ===== Footer ===== -->
+<div class="footer">
+    <p>联系：莲雾科技 | kbm1422@gmail.com  | 18018553370（微信同号）吴先生</p>
+</div>
+
+</body>
+</html>
